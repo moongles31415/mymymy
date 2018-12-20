@@ -36,4 +36,3 @@ cap.release()
 cv2.destroyAllWindows()
 
 #关闭程序释放窗口
-#123
