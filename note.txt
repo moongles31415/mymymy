@@ -10,3 +10,12 @@
 
 12.30.2018
 快到新年了，今天经济问题有了些起色，家里面还是闹的厉害，头疼
+
+1.1.2019
+vim 配置 wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
+对应的网址 https://github.com/ma6174/vim-deprecated
+插件问题的解决 https://jingyan.baidu.com/article/3f16e00308b4482591c1030f.html
+
+可以销售的产品 进口的 泰国的几种唇膏 韩国的杂货及小样
+
+想老婆了，几下弄好回去了
