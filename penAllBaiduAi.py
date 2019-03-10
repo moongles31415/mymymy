@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import matplotlib.pyplot as plt
 import time
-#import pygame
+import pygame
 from aip import AipSpeech
 from aip import AipOcr
 from PIL import Image
@@ -15,7 +15,7 @@ APP_ID_YY = '15289981'
 API_KEY_YY = 'Lpiv5SsGxA90GnWwM7cRDa5C'
 SECRET_KEY_YY = '14SvBenB2sGm6XqyTcFZKK1j9DiFdPpn'
 
-#摄像头截取图片
+# 摄像头截取图片
 cap = cv2.VideoCapture(0)
 while True:
    ret,frame = cap.read()    
@@ -28,7 +28,7 @@ while True:
       aipSpeech = AipSpeech(APP_ID_YY, API_KEY_YY, SECRET_KEY_YY)
       
 # 读取图片
-      filePath = "kkk.jpg"
+      filePath = "kk.png"
       def get_file_content(filePath):
          with open(filePath, 'rb') as fp:
             return fp.read()
@@ -56,14 +56,14 @@ while True:
             f.write(audioMp3)
 
 # mp3play
-#      file=r'/home/moongles/Git/auido.mp3'
-#      pygame.mixer.init()
-#      track = pygame.mixer.music.load(file)
-#      pygame.mixer.music.play()
+      file=r'/home/moongles/Git/auido.mp3'
+      pygame.mixer.init()
+      track = pygame.mixer.music.load(file)
+      pygame.mixer.music.play()
 
    if cv2.waitKey(1) == 13:break
         
-#关闭程序释放窗口test
+# 关闭程序释放窗口test
 cap.release() 
 cv2.destroyAllWindows()
 
