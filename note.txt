@@ -32,3 +32,6 @@ vim 配置 wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
 
 3.10.2019
 收入现在面前持平，和需要达到的目标还相去甚远。一定不能松懈，要抓紧可能的机会提高入账金额。
+
+4.23.2019
+十字路口
